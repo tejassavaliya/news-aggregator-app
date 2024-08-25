@@ -1,0 +1,12 @@
+.offcanvas-footer {
+	padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.checkbox-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 20px;
+}

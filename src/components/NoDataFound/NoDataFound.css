@@ -1,0 +1,20 @@
+.noDataContainer {
+	display: flex;
+    justify-content: center;
+    height: calc(100vh - 500px);
+    border: 2px dotted;
+    margin: 100px;
+    text-align: center;
+		cursor: pointer;
+}
+.noDataContainer span{
+	display: flex;
+	align-items: center;
+}
+.noDataContainer .search-icon {
+	display: flex;
+	justify-content: center;
+	font-size: 42px;
+	flex-wrap: wrap;
+	align-items: center;
+}

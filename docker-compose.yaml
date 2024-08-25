@@ -1,0 +1,7 @@
+
+services:
+  web:
+    build: .
+    container_name: news_aggregator_c
+    ports:
+      - "3000:3000"
