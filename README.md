@@ -1,4 +1,4 @@
-# News Aggregator Application
+# News Aggregator Application - [![Netlify Status](https://api.netlify.com/api/v1/badges/992d1de3-06ae-4bdb-a95b-e7a5a8cc7d10/deploy-status)](https://app.netlify.com/sites/latestnewsaggregator/deploys)
 
 ### Overview
 
