@@ -12,10 +12,10 @@ function News({ personalized, handleShowSidebar }) {
   console.log(personalized);
   const personalizedClass = personalized ? "personalized" : "";
 
-  let { articles, status } = useSelector((state) => state.articles);
+  let { articles, status, filters } = useSelector((state) => state.articles);
   articles = personalized ? personalized : articles;
 
-  const heading = personalized ? "personalized" : "category";
+  const heading = personalized ? "personalized" : (filters.query) ? filters.query : filters.category;
 
   const openOptions = () => {
     handleShowSidebar();
