@@ -1,4 +1,4 @@
-import { NavBar } from "./components";
+import { NavBar, ScrollToTop } from "./components";
 import { Outlet } from "react-router-dom";
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <>
       <NavBar />
       <Outlet />
+      <ScrollToTop />
     </>
   );
 }

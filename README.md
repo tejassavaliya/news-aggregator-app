@@ -60,6 +60,8 @@ news-aggregator/
 │   │   │   ├── NoDataFound.js
 │   │   ├── NoRouteFound
 │   │   │   ├── NoRouteFound.js
+│   │   ├── ScrollToTop
+│   │   │   ├── ScrollToTop.js
 │   │   ├── index.js
 │   │   └── ...
 │   │
